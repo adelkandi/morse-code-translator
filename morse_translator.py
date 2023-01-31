@@ -33,4 +33,5 @@ def translate_to_morse(inp):
                    
                     	
 # run :)
-translate_to_morse("derradji")
+message = input("Enter the message you wanna translate: ")
+translate_to_morse(message)
